@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roziqov</title>
     <link rel="stylesheet" href="./style.css">
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -14,47 +16,272 @@
 
 <body>
     <header id="home">
-        <div class="section-center">
-            <nav>
-                <div class="nav-header">
-                    <h2>AMBI</h2>
-                    <div class="menu">
-                        <i class="fa-solid fa-bars"></i>
-                    </div>
+
+        <nav>
+            <div class="nav-header">
+                <h2>AMBI</h2>
+                <div class="menu">
+                    <i class="fa-solid fa-bars"></i>
                 </div>
-                <ul class="links">
-                    <li><a id="home-link" class="p1" href="#home"> Home</a></li>
-                    <li><a id="portfolio-link" class="p1" href="#home"> Portfolio</a></li>
-                    <li><a id="about-link" class="p1" href="#home"> About me</a></li>
-                    <li><a id="test-link" class="p1" href="#home"> Testimonials</a></li>
-                </ul>
-                <button class="btn1 p1">
-                    Contact me
+            </div>
+            <ul class="links">
+                <li class="list"><a id="home-link" class="p1" href="#home"> Home</a></li>
+                <li class="list"><a id="portfolio-link" class="p1" href="#portfolio"> Portfolio</a></li>
+                <li class="list"><a id="about-link" class="p1" href="#about"> About me</a></li>
+                <li class="list"><a id="test-link" class="p1" href="#testimonials"> Testimonials</a></li>
+            </ul>
+            <button class="btn1 p1">
+                Contact me
+            </button>
+        </nav>
+        <main>
+            <div>
+                <p class="p1">Hey, I am Bobojon</p>
+                <h1>I create <span style="color:#5E3BEE"> product design</span> and brand experience</h1>
+                <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in
+                    eros
+                    elementum tristique.</p>
+                <button class="header-btn">
+                    <p class="p2" style="color:white;"> Get In Touch</p>
                 </button>
-            </nav>
-            <main>
-                <div>
-                    <p class="p1">Hey, I am Bobojon</p>
-                    <h1>I create <span style="color:#5E3BEE"> product design</span> and brand experience</h1>
-                    <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in
-                        eros
-                        elementum tristique.</p>
+            </div>
 
-                    <button class="header-btn">
-                        <p class="p2" style="color:white;"> Get In Touch</p>
-                    </button>
-                </div>
+            <div class="portf-photo">
+                <img src="./images/myphoto2.png" alt=" Portfolio photo">
+            </div>
+        </main>
 
-                <div class="portf-photo">
+    </header>
 
-                    <img src="./images/myphoto1.jpg" alt=" Portfolio photo">
-
-                </div>
-
-            </main>
+    <section class="section-center">
+        <p class="p2">My Skills</p>
+        <h2>My Expertise</h2>
+        <div class="expertise-container">
+            <article>
+                <img class="expertise-img" src="./images/product-chain.png" alt="product photo">
+                <h3>Strategy & Direction</h3>
+                <p class="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                    elementum tristique.</p>
+            </article>
+            <article>
+                <img class="expertise-img" src="./images/tag.png" alt="product photo">
+                <h3>Branding & Logo</h3>
+                <p class="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                    elementum tristique.</p>
+            </article>
+            <article>
+                <img class="expertise-img" src="./images/pen.png" alt="product photo">
+                <h3>UI & UX Design</h3>
+                <p class="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                    elementum tristique.</p>
+            </article>
+            <article>
+                <img class="expertise-img" src="./images/code.png" alt="product photo">
+                <h3>Webflow Development</h3>
+                <p class="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                    elementum tristique.</p>
+            </article>
 
         </div>
-    </header>
+    </section>
+
+
+
+    <section class="section-center" id="portfolio">
+        <div class="portfolio-nav">
+            <div>
+                <p class="p2">Recent Projects</p>
+                <h2>My Portfolio</h2>
+            </div>
+            <button>Visit My Dribbble</button>
+        </div>
+        <div class="portfolio-article-container">
+            <article>
+                <div class="portf-photo">
+                    <img src="./images/site-one.png" alt=" Portfolio photo">
+                </div>
+                <div class="portf-info">
+                    <h3>HEXASHOP</h3>
+                    <p class="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in
+                        eros.
+                    </p>
+                    <p class="p2">View In Dribbble</p>
+                </div>
+            </article>
+            <article>
+                <div class="portf-photo">
+                    <img src="./images/site-2.png" alt=" Portfolio photo">
+                </div>
+                <div class="portf-info">
+                    <h3>SENTRA</h3>
+                    <p class="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in
+                        eros.
+                    </p>
+                    <p class="p2">View In Dribbble</p>
+                </div>
+            </article>
+            <article>
+                <div class="portf-photo">
+                    <img src="./images/site-3.png" alt=" Portfolio photo">
+                </div>
+                <div class="portf-info">
+                    <h3>Training Studio</h3>
+                    <p class="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in
+                        eros.
+                    </p>
+                    <p class="p2">View In Dribbble</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="section-center" id="about">
+        <div class="container-about">
+            <div class="portf-photo">
+                <img src="./images/myphoto1.jpg" alt=" Portfolio photo">
+            </div>
+            <div class="about-me-info">
+                <p class="p2">About</p>
+                <h2>About Me</h2>
+                <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa
+                    sollicitudin amet augue. Nibh metus a semper purus mauris duis. Lorem eu neque, tristique quis duis.
+                    Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque.</p>
+                <p class="p1">Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae.
+                    Amet
+                    pellentesque sit pulvinar lorem mi a, euismod risus r.</p>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-center" id="testimonials">
+        <p class="p2">Clients Feedback</p>
+        <h2>Customer testimonials</h2>
+        <div class="customer-container">
+            <article>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="p1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                    elementum
+                    tristique. Duis cursus, mi quis viverra.</p>
+
+                <div class="img-customer">
+                    <img src="./images/Baxrom.jpg" alt="customer photo">
+                    <div>
+                        <p class="p2">Baxrom <br> Domlo </p>
+
+                    </div>
+                </div>
+
+            </article>
+            <article>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="p1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                    elementum
+                    tristique. Duis cursus, mi quis viverra.</p>
+
+                <div class="img-customer">
+                    <img src="./images/Baxrom.jpg" alt="customer photo">
+                    <div>
+                        <p class="p2">Baxrom <br> Domlo </p>
+
+                    </div>
+                </div>
+
+            </article>
+            <article>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="p1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                    elementum
+                    tristique. Duis cursus, mi quis viverra.</p>
+
+                <div class="img-customer">
+                    <img src="./images/Baxrom.jpg" alt="customer photo">
+                    <div>
+                        <p class="p2">Baxrom <br> Domlo </p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="contact-title">
+            <p class="p2">Get In Touch</p>
+            <h2>Contact me</h2>
+            <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+        </div>
+        <form class="form-contact" action="">
+            <div>
+                <label for="firstname">First name</label>
+                <input type="text" name="firstname" id="firstname">
+            </div>
+            <div>
+                <label for="lastname">Last name</label>
+                <input type="text" name="lastname" id="lastname">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="phonenumber">Phone number</label>
+                <input type="number" name="phonenumber" id="phonenumber">
+            </div>
+
+            <div class="form-item-5">
+                <label for="topic">Choose a topic</label>
+                <select name="topic" id="topic">
+                    <option value="one">Select one</option>
+                </select>
+            </div>
+            <div class="form-item-6">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message..."></textarea>
+            </div>
+            <span>
+                <input type="checkbox" id="accept" name="accept">
+                <label for="accept">I accept the terms</label>
+            </span>
+
+        </form>
+        <button class="form-btn">Submit</button>
+    </section>
+    <footer>
+        <h3>AMBI</h3>
+        <ul>
+            <li><a class="p1 color" href="#home">Home</a></li>
+            <li><a class="p1 color" href="#portfolio">Portfolio</a></li>
+            <li><a class="p1 color" href="#about">About me</a></li>
+            <li><a class="p1 color" href="#testimonials">Testimonials</a></li>
+        </ul>
+        <div class="social-container">
+            <a href="https://www.facebook.com/bobojon.roziqov"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/bobojonroziqov/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://t.me/broziqov"><i class="fa-brands fa-telegram"></i></a>
+        </div>
+    </footer>
 
 
     <script src="./app.js"></script>
